@@ -1,0 +1,8 @@
+tau = 0.001;
+t_dead = 2e-6;
+
+C_th = 150;
+R_th = 2.5;
+T_ambie
+
+

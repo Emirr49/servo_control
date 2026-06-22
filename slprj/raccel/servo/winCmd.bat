@@ -1,0 +1,2 @@
+chcp 65001
+cmd /D /c start "RapidAccelerator" /B "C:\Users\Ali Emir Kaplan\servo_control\slprj\raccel\servo\servo.exe" --config "C:\Users\ALIEMI~1\AppData\Local\Temp\raccel_inputp7802bf9c_8616_4de4_ab42_f973241fbae7.cfg" -server_info_file "C:\Users\ALIEMI~1\AppData\Local\Temp\tpp7802bf9c_8616_4de4_ab42_f973241fbae7.info" -tgtconn_server_info_file "C:\Users\ALIEMI~1\AppData\Local\Temp\tgtconnp7802bf9c_8616_4de4_ab42_f973241fbae7.info" -tgtconn_port 0 -port 0 -w >"C:\Users\Ali Emir Kaplan\servo_control\slprj\raccel\servo\cmdLog.txt"
