@@ -1,6 +1,6 @@
 # High-Fidelity Servo Actuator Control with Continuous Kalman-Bucy ADRC
 
-This repository contains a high-fidelity MATLAB/Simulink framework for an aerospace-grade Permanent Magnet Synchronous Motor (PMSM) servo actuator operating through a **50:1 gearbox**. The project implements full cascaded **Field Oriented Control (FOC)** integrated with an **Active Disturbance Rejection Control (ADRC)** outer loop, driven by a continuous-time optimal state estimator (**Kalman-Bucy Filter**) to achieve precise speed tracking under heavy measurement noise and sudden load disturbances.
+This repository contains a high-fidelity MATLAB/Simulink framework for an aerospace-grade Permanent Magnet Synchronous Motor (PMSM) servo actuator operating through a 50:1 gearbox, developed using AI-assisted development while analyzing the results to optimize system performance. The project implements full cascaded Field Oriented Control (FOC) integrated with an Active Disturbance Rejection Control (ADRC) outer loop, driven by a continuous-time optimal state estimator (Kalman-Bucy Filter) to achieve precise speed tracking under heavy measurement noise and sudden load disturbances.
 
 ---
 
