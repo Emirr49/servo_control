@@ -1,0 +1,145 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   18 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "doneDoubleBufferReInit"\
+      Description  "DoubleBufferInitCheck"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "x_hat"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:82-87"\
+      Dimensions   [2]\
+    }\
+    ChartData {\
+      Name         "x_hat_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:82-87"\
+    }\
+    ChartData {\
+      Name         "Ed"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:88-90"\
+    }\
+    ChartData {\
+      Name         "Ed_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:88-90"\
+    }\
+    ChartData {\
+      Name         "Eq"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:91-93"\
+    }\
+    ChartData {\
+      Name         "Eq_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:91-93"\
+    }\
+    ChartData {\
+      Name         "int_pll"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:94-101"\
+    }\
+    ChartData {\
+      Name         "int_pll_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:94-101"\
+    }\
+    ChartData {\
+      Name         "theta_hat"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:102-111"\
+    }\
+    ChartData {\
+      Name         "theta_hat_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:102-111"\
+    }\
+    ChartData {\
+      Name         "theta_m_hat"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:112-123"\
+    }\
+    ChartData {\
+      Name         "theta_m_hat_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:112-123"\
+    }\
+    ChartData {\
+      Name         "we_est"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:124-130"\
+    }\
+    ChartData {\
+      Name         "we_est_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:124-130"\
+    }\
+    ChartData {\
+      Name         "initialized"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:131-142"\
+    }\
+    ChartData {\
+      Name         "initialized_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Ali Emir Kaplan\servo_control\SMO_DQ_5State_impl.m:131-142"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
